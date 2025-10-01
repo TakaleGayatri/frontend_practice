@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3 Player Dice Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎲 3 Player Dice Game 🎲</h1>
+    <div class="players">
+      <div class="player" id="player1">
+        <h2>Player 1</h2>
+        <img id="dice1" src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Dice-1-b.svg" alt="Dice 1">
+      </div>
+      <div class="player" id="player2">
+        <h2>Player 2</h2>
+        <img id="dice2" src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Dice-1-b.svg" alt="Dice 2">
+      </div>
+      <div class="player" id="player3">
+        <h2>Player 3</h2>
+        <img id="dice3" src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Dice-1-b.svg" alt="Dice 3">
+      </div>
+    </div>
+    <button onclick="rollDice()">Roll Dice</button>
+    <h2 id="winner"></h2>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
